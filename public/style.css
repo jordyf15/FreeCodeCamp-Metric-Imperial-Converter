@@ -1,0 +1,36 @@
+body{
+    margin:0px;
+    background-color: #778ca3;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+#container{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.container-items{
+    border-style:solid;
+    background-color: #a5b1c2;
+    border-color: #4b6584;
+}
+#user-stories{
+    grid-row: 1/4;
+    border-right-style: none;
+}
+#front-end{
+    text-align: center;
+}
+#example-return{
+    border-top-style: none;
+    border-bottom-style: none;
+}
+.fa{
+    border: none;
+    background: transparent;
+}
+#footer{
+    text-align: center;
+}
