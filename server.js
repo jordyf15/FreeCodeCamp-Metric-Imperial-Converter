@@ -9,7 +9,7 @@ const helmet=require('helmet');
 var apiRoutes         = require('./routes/api.js');
 var fccTestingRoutes  = require('./routes/fcctesting.js');
 var runner            = require('./test-runner');
-
+// process.env.NODE_ENV='test';
 var app = express();
 
 app.use(helmet());
